@@ -16,6 +16,10 @@ const MessageSchema: Schema<Message> = new Schema({
         type: Date,
         required: true,
         default: Date.now
+    },
+
+    name:{
+        type: String,
     }
     
 })
